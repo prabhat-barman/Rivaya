@@ -149,6 +149,9 @@ function AppContent() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <div className="bg-red-600 text-white text-center py-2 px-4 text-sm font-medium">
+        ⚠️ DEMO PROJECT: This is a portfolio website. No real products are sold. Do not enter real personal info.
+      </div>
       <Header onNavigate={navigate} currentPage={currentPage} />
       <main className="flex-1">{renderPage()}</main>
       <Footer onNavigate={navigate} />
